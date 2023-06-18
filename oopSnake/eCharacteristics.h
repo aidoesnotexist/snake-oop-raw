@@ -1,0 +1,18 @@
+#pragma once
+
+enum OBJECT_TYPE
+{
+	BLANK,
+	SNAKE_BODY,
+	FRUIT,
+	OBSTACLE
+};
+
+enum DIRECTION
+{
+	STATIC,
+	UPWARD,
+	DOWNWARD,
+	LEFT,
+	RIGHT
+};
